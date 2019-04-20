@@ -14,6 +14,6 @@ end
 
 author = Author.new
 author.coding_details("Cal Newport")
-author.coding_details("Steven Spielberg")
-author.coding_details("Eduardo Bueno")
+author.fiction_details("Steven Spielberg")
+author.history_details("Eduardo Bueno")
 p author.respond_to?(:coding_details)
